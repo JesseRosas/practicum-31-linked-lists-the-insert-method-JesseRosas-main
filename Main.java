@@ -2,7 +2,7 @@ class Main {
   public static void main(String[] args) {
     
     // Create a new, empty linked list
-    nums_list = new nums_list;
+   IntList nums_list = new IntList();
 
     // Test 1
     System.out.println("Expected output: * empty list *");
@@ -18,11 +18,11 @@ class Main {
     System.out.println();
 
     // Insert nodes to existing linked list
-    nums_list.append(10);
-    nums_list.append(30);
+    nums_list.insert(10);
+    nums_list.insert(30);
 
     // Test 3
     System.out.println("Expected output: 10 30 40");
-    num_list.displayList();
+    nums_list.displayList();
   }
 }

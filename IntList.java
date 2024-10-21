@@ -13,7 +13,7 @@ public class IntList {
 
   // ** TO COMPLETE **
   public void insert(int new_value) {
-    IntNode newNode = new IntNode(new_value);
+    IntNode newNode = new IntNode(new_value, null);
 
     // Case 1: Empty list or new value should be inserted at the front
     if (head == null || new_value < head.getValue()) {
